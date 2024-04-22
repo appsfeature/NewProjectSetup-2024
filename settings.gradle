@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BYTApp"
+rootProject.name = "NewProjectSetup-2024"
 include ':app'
