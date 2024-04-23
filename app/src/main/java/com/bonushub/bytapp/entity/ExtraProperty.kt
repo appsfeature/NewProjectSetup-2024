@@ -10,11 +10,12 @@ class ExtraProperty : BaseCategoryProperty(), Serializable, Cloneable {
         return super.clone()
     }
 
-    val clone: ExtraProperty
-        get() = try {
+    fun getClone(): ExtraProperty {
+        return try {
             clone() as ExtraProperty
         } catch (e: CloneNotSupportedException) {
             e.printStackTrace()
             ExtraProperty()
         }
+    }
 }

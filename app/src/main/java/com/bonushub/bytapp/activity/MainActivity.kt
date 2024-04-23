@@ -1,4 +1,4 @@
-package com.bonushub.bytapp
+package com.bonushub.bytapp.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
